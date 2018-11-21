@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "'a russian haxor HQ'",
+  "main": "(app.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
