@@ -1,0 +1,55 @@
+body{background-color:teal;margin:0;padding:0;font: 15px/1.3 Arial,Sans-serif,"Times new Roman"}
+header{background-color:#1f1919;border-bottom:thin rgba(192,255,0,1) solid;
+       width:100%;height:35px;}hr{border:thin orange solid;}li, a{text-decoration:none;list-style: none;}
+#branding{background-color: rgba(255,165,0,.95);float:left;box-sizing:border-box;}
+#branding h1{background-color:orange;font-family:"Times New Roman";padding:0;margin:0px 0px 0px 180px;box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4)}
+nav{float:right;box-sizing:border-box;}
+ul{box-sizing:border-box;padding:0;margin-top:0;margin-right:70px;}
+.l1{display:inline;background-color: #2dad66;padding:25px;
+   box-shadow:0px 0px 15px 0px rgba(0,0,0,0.3);border-radius:12%}
+.container{background-color:coral;}
+.a1{text-decoration:none;color:coral;background-color: teal;padding:10px;border-radius:25%;box-shadow:0px 0px 15px 0px rgba(0,0,0,0.4)}
+ .l1:hover:not(.active){background-color: rgba(45,155,94,1);}
+.clr{clear:both;}.active{color:wheat;}.active2{background-color:teal;}
+              /* DisplaySection */
+.span1{background-color:tomato;font:35px/1.3 comic;display:block; }
+.span3{color:wheat;font:30px/1.3 comic}
+.span2{display:inline;width:80%;background-color: rgba(128,128,128,.7);font:30px/1.3 comic;color: #cccccc;padding:0px 10px}
+
+.heading{padding-top:350px;width:55%;margin:auto;}
+.heading p{font-size:25px;font-style:Helvetica; color:white;overflow:hidden;width:100%;text-align:center;background-color: rgba(0,150,150,.89);
+  ;border:thin wheat solid;padding:20px 0px;margin-bottom:0px;}
+#DisplaySection{width:100%;background-repeat:no-repeat;background-size:cover;
+  background-image:url(../images/picturmain2.jpg);min-height:960px;
+  background-position:center center;}
+#DisplaySection h1{box-shadow:inset 0px 0px 15px 0px rgba(255,255,255,1);font-size:45px;margin:0;text-align:center;
+                   color: #1f1919;background-color:#e9dabe;border-radius:6%;}
+              /* NEWSLETTER */
+
+.container2{width:100%;height:60px;background-color:#1f1919;overflow:hidden;padding-top:30px;}
+.container2 form{float:right;}
+#newsletter{width:70%;height:60px;margin:auto;}
+#newsletter label{float:left;font-size:25px;color:white;}
+.button1{padding:10px 20px;color:white;background-color: coral;border:none;}
+input{padding:10px 0px 10px 0px;}
+             /*    MAIN    */
+
+             /*   MEDIA  */
+@media only screen and (max-width: 942px){
+        body{background-color:blue;margin:0;padding:0;}
+      header{background-color:gray;float:none;height:90px;width:100%;}
+#branding h1{margin:0;text-align:center;}
+#branding{display:block;width:100%;float:none;background-color:rgba(192,255,0,1);}
+  nav{height:60px;background-color:#099441;width:100%;}
+.l1{background-color: rgba(0,158,0,.8);padding:15px 15px 15px 0px;border-radius:6%;}
+ul{margin:auto;
+   margin-top:20px;}
+  .container{width:100%;margin:auto;display:block;background-color: rgba(192,255,0,0.6)}
+.a1{text-decoration:none;width:50%;margin-left:10px;padding:5px;}
+.a1:hover:not(.active){color:lime;background-color:red}
+.l1:hover:not(.active){color:lime;background-color:red}
+.active{background-color:grey;border-radius:12%}
+.container2,.container2 form{float:none;width:100%;display:block;padding-bottom:90px;}
+.container2 label, input, button{display:block;width:100%;text-align:center;}
+.container2 input{margin-left:-1px;margin-bottom: 2px;}
+.button1{padding:10px 25px;}}

@@ -1,0 +1,84 @@
+
+                        /*   GLOBAL  */
+
+body{margin: 0;padding: 0;font-family:Arial,Helvetica,Sans-serif;height:100%;background-color:white;
+font-size:16px}h3{padding-top:10px;padding-left:25px;background-color:coral}
+.container{width:80%;margin:auto;}
+ul{padding:0;margin:0;}a{text-decoration: none;}li{list-style:none;}
+nav{height: 40px;background-color:#333;color:#eee;padding-right:15px}
+nav li{display:inline;float:left;}.special{float:left;}
+nav a{color:wheat;display:inline-block;width:100px;text-align: center;padding:10px 0px}
+#openup{float:right;}hr{color:wheat;word-wrap:break-word;}
+nav a:hover{color:white;}nav li:hover{background-color:gray;}p{color:white;}
+h1{font: 12vmin "Courier new";margin:0;padding:0;color:white;}
+.display{background:url(../images/mytunes.jpg)center no-repeat;
+   background-size:cover;text-align:center;width:100%;min-height:960px;}
+.display h1{padding-top:350px;width:100%}.display p{font:20px/1.5 "Times new roman",Arial;color:whitesmoke}
+.clr{clear:both;margin:0;}
+.content{visibility:hidden;}.sub-menu{float:right;visibility:hidden}
+article{display:inline-block}
+
+     /*   LEFT-SIDEBAR  */
+
+.side-bar{float:left;width:30%;width:290px;margin-top:20px;margin-right:13px;height:2350px;}
+.sticky{position:sticky;top:-235px;}
+.retina{margin:10px 0px 0px 25px;width:50%;height:80px;width:150px;box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3)}
+.side1{background-color:whitesmoke;border:thin gray solid;padding:0px 0px 10px 10px;border:thin brown solid;}
+.beforeme{display:inline;padding-left:}
+.side2inline{float:left;margin:0px 10px 0px 10px;box-shadow:0px 0px 5px 0px rgba(0,0,0,0.6);width:150px;}
+.side2 li{color: #24779e;font-size:13.5px;width:40%;display:inline}
+.side2{background-color:whitesmoke;box-shadow:0px 0px 5px 0px rgba(0,0,0,0.4)}
+.side2 article{border-bottom:thin teal solid;padding:16px 5px 10px 5px;}
+.fox-logo{Margin-top:20px;padding-right:10px;display:inline;}.label1{padding:0px 5px;position:relative;bottom:35px;background-color:red;color:whitesmoke;box-shadow:0px 0px 5px 0px rgba(255,0,0,0.3);border-radius:12%}
+  #toggle{position:absolute;right:0px;top:0px;opacity:0.001}.padleft{padding-left:55px;position:relative;bottom:30px;}
+
+       /*   MAIN    */
+
+.main1{background-color: whitesmoke;font:13px/1.3 arial}
+.main-back{width:100%;margin:0;padding:0;}.main-back img{width:100%}
+.main1 img{width:100%;}.main1 ul{position:relative;width:100%;margin:auto;margin-bottom:20px;background-color:white}
+.main1 li{padding-left:5px;margin:10px 10px 10px 40px;border-left:thin teal solid;display:inline-block;width:40%;padding:10px;box-sizing:border-box}
+.main1 h2 {font:30px/1.5 "Times new Roman";text-align: center;color:#1f1919;background-color:wheat;}
+.a45::before {content:url('../images/play_logo.png')}.hed2_A{color:firebrick;}.hed2_A:hover{background-color:teal;cursor:pointer}
+.main1 a{color:#25476f}.main2 article{width:45%;background-color:white;}.main1 li{font:13px/1.3 Sans-serif;word-wrap:break-word}
+.main2 li{margin:10px 10px 10px 0px;padding-left:10px;border-left:thin brown solid}
+.main2 a:hover {opacity:0.7}.main2 a{font:14px/1.3 arial;color:teal;}
+.main2 h2{Background-color:coral;color:#1f1919}
+.main2 img{width:100%;height:100%;}
+.main2{padding:15px 0px 0px 0px;background-color: white}
+.artic1{float:left;margin-left:40px}.artic2{padding-bottom:30px;padding-left:10px}
+.main3 li{display:block;}.main3 article{width:98%;background-color:white;padding:10px 0px 10px 10px;border-bottom:thin firebrick solid;}
+.main3{margin-top:15px;} .main3 .artic3{padding-top:35px}
+.main3 span{font-size:11.5px;color:gray}.Types1{font:13px/1.3 "Times New Roman";color:firebrick;}
+.main-bar{float:left;width:55%;padding:6px;margin-top:10px}
+
+                      /* RIGHT-SIDEBAR */
+
+.side-bar2{padding:10px;border:thin teal solid;background-color:whitesmoke;}
+aside img{width:100%;}.today-content-box{width:100%}.empty1{height:144px;width:250px;margin:10px}
+.side-bar2 h2{padding-bottom: 10px;border-bottom: thin cadetblue solid;}
+.side-bar2 span{font-size:12.5px;color:gray;}
+.today-content-box2{padding:10px;border-bottom:thin brown solid}
+.Exclusive{padding:10px;border:thin coral solid;border-radius:6%;margin-bottom:40px}.today-content-box1{padding:10px}
+.IMG_Opinion{border-radius:50%;width:25%;display:inline;float:right}.Opinion1{padding:20px 0px;border-bottom:thin pink dotted}
+.Opinions{padding:10px; border:1.7px beige dotted;}.sticky2{position: sticky;top:-250px;}
+aside{float:left;width:18%;margin:25px 0px 0px 25px;position:relative}
+
+                   /* MEDIA */
+@media screen and (max-width:636px) {
+  .main-sand{float:right;width:10%;height:40px;background-color:#333;box-sizing:border-box;padding-top:4px;}
+  #showcase{float:left;width:90%;box-sizing:border-box;}
+.sub-menu p{margin:0;padding:0}.sub-menu{}
+.main-sand label{height:40px;width:60%;background:green;margin-top:4px;}
+.TeLine{Width:25px;}
+#toggle:checked + .sub-menu{;height:100%;width:80%;background-color:#a07b35;z-index:4;float:right;visibility:visible;padding:0px 20px 20px 20px;
+                             box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.7);margin-right:10px;}
+#toggle:checked + .sub-menu > ul > li > a{text-shadow:0px 2px #eed6a9;color:#1f1919;padding:20px;visibility:visible;display:inline-block;}
+#toggle:checked + .sub-menu > ul > li{box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.4);text-align:center;background-color:wheat;border-bottom:solid white thin;}
+#toggle:checked + .sub-menu > ul > li > a:hover {color:red;font-size:20px;background-color:whitesmoke;}
+.sub-menu{visibility:hidden;}
+#toggle{opacity:0.01;overflow:hidden;position:absolute;top:0px;right: 0px}
+  nav li:not(.special){display:none;}
+.display h1{font-size:45px;}
+.line{background-color:wheat;width:25px;height:3.7px;margin-top:5.0px;z-index:10;}
+#openup{display:none;}}

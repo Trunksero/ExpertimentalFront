@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="lol/LearningJS_1.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <title>JS_Tutorial</title>
+</head>
+<body id="body">
+  <header class="Header">
+    <div class="logo"><img src="images/TCW-Logo.png" alt=""></div>
+    <div class="right">
+    <div class="notify">The<span class="tagged"> -JS-</span> -BeatDown-</div></div>
+    <div class="outter"><i class="fas fa-bars" onclick="OpenMenu()"></i>
+      <div class="menu row" onmouseover="OpenMenu()" id="raw">
+      <p onclick="OpenMenu2()">Casual Menu</p><p >FULL Menu</p>
+    </div></div>
+  </header>   <div id="Inside" class="row">
+  <ul>
+    <li  ><a href="#MovForm">Homepage</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+  </ul></div>
+<div class="Intro" onclick="Back()">
+  <h1 id="NotMe">Welcome To the JS Tutorial</h1>
+  <p>This won't be entierly easily accomplished.</p>
+</div>
+<div class="container">
+<button class="Click" onclick="DoClick()">Click me. I DARE YA BRUV1</button>
+</div>
+
+<div class="absolution"><div class="circle" id="Round"></div>
+<button id="Clock" onclick="MyTime()" onmouseout="MyTimeOff()"><pre>
+T
+I
+M
+E</pre></button><h3 id="DisplayTime"></h3></div>
+<div class="clr"></div>
+<div class="inputshit">
+  <form action="action.php"><h2>Input Random shit in here lol</h2>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name"><label for="Idfk">Choose Background</label>
+
+  <select name="Idfk" id="selekt" onchange="ChangeBG(this)">
+    <option value="#1f19">Lime-ish</option>
+    <option value="#DCDCDCDC">Light-gray</option>
+    <option value="teal">Teal</option>
+  </select><label for="Idfk2">Choose Text Color</label>
+  <select name="Idfk2" id="selekt" onchange="ChangeColor(this)">
+    <option value="#1f19">Lime</option>
+    <option value="wheat">Wheat</option>
+    <option value="teal">Teal</option>
+  </select><label for="Idfk2">Choose Circle Color</label>
+  <select name="Idfk3" id="selekt" onchange="ChangeCircle(this)">
+    <option value="wheat">Volvo</option>
+    <option value="#1f19">Lime</option>
+    <option value="#333">Teal</option>
+    <option value="red">Red</option>
+  </select>
+  <input type="reset" onclick="Resetting()">
+</form>
+</div><div class="Grid">
+  <div class="box"><h1>The Magic of the Rabbit.</h1><p>I am the TRUE magic MAN. I am the TRUE magic MAN.
+     I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+       I am the TRUE magic MAN.</p></div>
+  <div class="box"><h1>The Adventures of the Snake.</h1><p>I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+       I am the TRUE magic MAN.</p></div>
+  <div class="box"><h1>The Temptations of the Lizard.</h1><p>I am the TRUE magic MAN. I am the TRUE magic MAN.
+     I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+      I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN. I am the TRUE magic MAN.
+       I am the TRUE magic MAN.I am the TRUE magic MAN. I am the TRUE magic MAN.
+                I am the TRUE magic MAN.</p></div>
+
+<div class="Former">
+  <h2>Add Your <span class="tagged2">Favorite</span> Movie Here!</h2>
+  <form id="searchbar">
+    <input type="text" placeholder="Look for your Movie..." value="" class="in-S">
+  </form>
+<form id="MovForm">
+    <ul id="Imps">
+    <li><p>Legends of the Chinese Boat</p> <button class="delete">Delete</button></li>
+    <li><p>Something From Old Greece or something</p><button class="delete">Delete</button></li>
+    <li><p>Lorem Ipsum Doral LUS Kim </p><button class="delete">Delete</button></li>
+    <li><p>ritatum, ipsa aliquid ea ipsam</p> <button class="delete">Delete</button></li>
+    <li><p>Irriation, lorem Nickers ea Some repellat</p><button class="delete">Delete</button></li>
+</ul>
+    <input type="text" class="adding"><button id="LastBtn" type="submit" >Add!</button>
+  </form>
+</div>
+</div>
+</body>
+<script src="lol_JS/main.js"></script>
+</html>

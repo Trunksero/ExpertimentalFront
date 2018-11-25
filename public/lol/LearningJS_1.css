@@ -1,0 +1,67 @@
+body{font-family:Arial, helvetica, sans-serif;margin:0;position: relative;z-index:-3;}li{list-style-type:none;}
+label{color:#333;margin:0px 0px 0px 15px;text-decoration:underline;font-size:18px;}a{text-decoration: none;color:wheat;}
+.outter i{color:wheat;font-size:30px;}ul{margin:0;padding:0}
+.notify{box-shadow: inset 0px 0px 2px 3px wheat;text-shadow: 0px 0px 1.5px white;animation: Drop 5s infinite linear;background: #381010;padding: 1px 5px;border-radius: 9%;position: absolute;color: #e0b158;overflow: hidden;border: 3px #555 solid;font: 35px/55px Arial;}.right{position:relative;}
+.tagged{color:#fcfc;text-shadow:0px 0px 10px white}.tagged2{color: coral;text-shadow:0px 2px 1px #b24a4a;}
+.outter{padding:40px 25px 0px 20px;background-color:#333;}
+.Header{z-index:-2;border-bottom: 3.5px #999 solid;Display:flex;background-color:#111f;place-content:end space-between;position:relative;overflow:hidden;box-shadow:0px 4px 0px 0px #999}
+.logo > img{width:50%;}.logo{padding:10px;}
+#Inside:hover{display:block;}
+#Inside{display:none;position:absolute;top:97.5px;right:-240px;animation:CasualMenu 0.7s ease-out forwards;}
+#Inside > ul > li{box-shadow:10px 0px 0px 0px wheat;text-align:left;border-bottom:thin #1f1919 solid;list-style:none;background-color:#333;padding:20px;margin:0px;width:200px;}
+
+.menu{display:none;z-index: -1;animation: popup .2s linear forwards;position: absolute;top: 0px;
+  right:0px;height: 150px;width: 100px;background-color: #0b0a07;
+  border-left: 1px wheat solid;padding:5px;}.menu p{color:wheat;background-color:#555;
+box-shadow:0px 0px 2px 0px white,0px 0.2px 1px 0px brown}
+
+
+.Intro{margin-top:10px;Padding:40px;background-color:#DCDCDC66;  text-align:center;border-bottom:3.3px lightgray solid;border-top:3.5px black solid;}
+.container{margin:auto;width:50%;text-align:center;margin-top:50px;height:500px;}
+.inputshit{box-shadow: 0px -1px 4px 0px #1f1919;background-color:wheat;border-top:thin #1f19 solid;padding-top:10px;}.inputshit input{padding:10px;display:block;margin:5px;}
+select{margin:10px;padding:5px;}.inputshit h2{padding-left:5px;background-color:teal;}#Idfk ~ input{display:inline;}
+.circle{border-radius:100%;height:90px;width:90px;position:absolute;top:0px;left:0px;background-color:#677C8A;animation:ForLolz 10s infinite linear;}
+.Click{position:relative;z-index:2;padding:20px 10px;}
+.Click:hover{animation:transform 1s forwards ease-in;border:thin red solid;box-shadow:0px 0px 4px 1px black}
+
+                 /* Bookmark Section w/Grid */
+.Grid{Display:grid;grid-gap:1em;grid-template-columns:1fr 2fr 1fr;width:80%;margin:auto;margin-bottom:40px;}.box{padding:20px;text-align:center;background-color:#333;color:wheat;box-shadow:0px 0px 2px 1px white}
+.Former{grid-area:2/1;background-color:whitesmoke;}.in-S{width: 74%;font-size: 16px;padding: 12px 0px 12px 3px;}
+.Former h2{font-size: 27px;text-align: center;background-color: #8144a3;text-shadow: 0px 3px 1px #121111;color: white;}.Former li{padding:0px 0px 0px 20px;margin:10px 5px 10px 0px;border-left:3px #f4a6f4 solid;font-size:16px;display:flex;place-content:end space-between;}
+.Former button{border-radius:10%;color:white;background-color:purple;align-self: center;padding:8px 15px;border:none;}.Former form{padding:10px;}.Former{border-radius:1%;grid-area:2/1/2/3;max-width:666px;box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.6);}
+.adding{display: inline-block;width: 74%;font-size: 16px;padding: 12px 0px 12px 3px;box-shadow: 0px 0px 3px 0px black;}#Imps li:nth-child(odd){background-color:#a9a9a94d;}
+#LastBtn{padding: 15px 0px 15px 0px;border-radius: 0% 25% 25% 0%;height: 45px;width: 75px;box-shadow: inset 1px 0px 1px 0px black;background-color:#800080cc}
+
+                       /*   TIME SECTION */
+#Clock{position:relative;height:200px;width:10%;font-size:5px;padding-right:20px;background:transparent;border:thin gray solid;animation:mov 3.5s ease-out infinite;}
+#Clock:hover{background-color:#ff0000e6;opacity:0.85}
+.absolution{position:absolute;top:350px;left:0px;height:200px;width:100%;}
+#DisplayTime{text-align:center;}
+.clr{clear:both;}
+                     /* ANIMATION SECTION */
+@keyframes transform{0%{transform:scale(1);}
+                    100%{transform:scale(2);background-color:coral;}}
+@keyframes mov{0%{width:2%;text-shadow:0px 0px 0px #1f1919;font-size:5px;color:white;}
+                  99.9%{width:5%;text-shadow:0px 0px 2px #1f1919;font-size:30px;background-color:#ff0000e6}}
+@keyframes ForLolz{0%{left:0px;top:0px;opacity:1;transform:scale(1)}
+           25%{left:500px;top:200px;transform:scale(2)}
+           35%{left:1000px;top:0px;opacity:1;transform:scale(1)}
+           45%{left:1500px;top:200px;opacity:.55;transform:scale(2)}
+          50%{left:1950px;top:160px;opacity:1;transform:scale(1)}
+          65%{left:1500px;top:200px;opacity:.4;transform:scale(1)}
+          75%{left:1000px;top:50px;transform:scale(.7)}
+          85%{left:500px;top:200px;transform:scale(2)}
+          100%{left:0px;top:0px;transform:scale(1)}}
+@keyframes Drop{0%{top:125px;}
+                99.9%{top:-125px;}
+                100%{top:125px;}}
+@keyframes popup{0%{right:0px;}
+                 90%{right:87px}
+                 100%{right:77px;}}
+@keyframes CasualMenu{0%{right:-225px;}
+                      100%{right:10px;}}
+
+
+
+@media screen and (max-width:580px){
+  .notify{display:none;}}
