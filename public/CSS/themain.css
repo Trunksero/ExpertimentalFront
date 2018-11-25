@@ -1,0 +1,26 @@
+body{margin:0;background-color:#666;font-family:arial,Helvetica,sans-serif;}
+ul{position: relative;list-style-type: none;padding: 0px;margin: 0px;height: 45%;display: flex;justify-content: center;align-items: center;flex-wrap: wrap;background-color:#266179;}
+a{text-shadow: 2px 2px 0px #444;font-size:28px;color: black;display: inline-block;padding: 7px 30px 7px 30px;border: thin white solid;border-radius: 18%;text-decoration: underline aqua;
+    background-color: #2daebc;}
+a:hover{color:#333;border:thin white solid;}li{display:inline-block;margin:20px;}
+.header h1{font:45px;color: wheat;width: 75%;margin: auto;background: #222;box-shadow: inset 2px 0px aliceblue,inset 0px 0px 15px 0px black;padding: 95px 20px;}
+.header{background-color: #00effd99;text-align: center;display: flex;}
+nav{background-color:#2daebc;width:100%;text-align: center;border-top:thin white solid;}
+.clr{clear:both;}
+.alert{height:50px;text-align: center;}h2{color:coral;background-color: white;}
+.flying{background-color:white;height:20px;width:20px;border-radius:0%;position:absolute;}
+.flying1{top:20px;left:20px;animation:fly 10s infinite;}
+.flying2{top:-20px;left:-20px;animation:fly2 10s infinite}.container{overflow:hidden;margin:0;}
+.footer{padding:93px 0px;background-color: darkslategrey;color: white;text-align: center;}
+@keyframes fly{
+  0%{border-radius: 0%;top:45%;left:35%;height:20px;width:20px;}
+                 35%{height:40px;width:40px;top:50%;left:60%;}
+                 50%{top:0%;left:10%;}
+                 75%{top: 30%;left: 90%;}
+  100%{border-radius: 100%;top: 45%;left: 35%;height: 20px;width: 20px;}
+}
+@keyframes fly2{0%{border-radius: 0%;top:45%;left:35%;height:20px;width:20px;}
+                35%{height:140px;width:140px;border-radius:100%;}
+               50%{top:50%;left:80%;height:100px;width:100px;}
+               75%{top:30%;left:20%;height:20px;width:20px;}
+100%{border-radius: 100%;top:45%;left:35%;height:20px;width:20px;}}

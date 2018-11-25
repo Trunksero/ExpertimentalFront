@@ -6,10 +6,10 @@ app = express();
 app.use(express.static('public'));
 // ALL MY PAGES ---- Yep.
 app.get('/', function(req, res){
-  res.sendFile(__dirname + "/learning_js2.html");
+  res.sendFile(__dirname + "/themain.html");
 });
-app.get('/about', function(req,res){
-  res.sendFile(__dirname + "/About.html");
+app.get('/home', function(req,res){
+  res.sendFile(__dirname + "/themain.html");
   });
 app.get('/4thPage',function(req,res){
   res.sendFile(__dirname + "/index4.html");
